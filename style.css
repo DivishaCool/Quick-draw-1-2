@@ -1,0 +1,46 @@
+body{
+    background-color: darkgray;
+}
+
+h1{
+    color:ghostwhite;
+    background-color: lightgray;
+}
+
+#show_sketch{
+    float: right;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name:shadow-color;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    margin-top: 230px;
+
+}
+
+@keyframes shadow-color{
+     0%{box-shadow: 1px 1px 38px white;}
+     75%{box-shadow: 1px 1px 38px midnightblue;}
+    100%{box-shadow: 1px 1px 38px white;}
+}
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+#task_div{
+    background-color: darkslategray;
+    color:whitesmoke;
+}
+
+#score , #time{
+    font-size: large;
+    font-style: italic;
+    color:white;
+    background-color: darkslateblue;
+    width:100%;
+}
